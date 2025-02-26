@@ -22,7 +22,7 @@ model User {
   dateOfBirth DateTime?
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
-  bios        String?
+  bio         String?
   location    String?
   posts       Post[]
   likes       Like[]
